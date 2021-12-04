@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page-header {
+    background-color: goldenrod;
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 150px;
+    text-decoration: none;
+}
+#dashboard{
+    display: block;
+    align-content: center;
+    align-items: center;
+}
+.container-fluid{
+    display: block;
+}
+.container-fluid a{
+    text-decoration: none;
+}
+.banner {
+    display: flex;
+    padding: 10px;
+}
+.banner img{
+    border-radius: 30px 0px 30px 0px;
+    padding: 5px;
+}
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #fff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,h5 {
+    text-decoration: none;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+    display: flex;
+}
+
+
+.post{
+    margin-bottom: 30px;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 50px 0px 50px 0px;
+    text-decoration: none;
+  }
+.post a{
+    text-decoration: none;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-default,
+.btn-default:visited {
+    color: #f1356d;
+    background: none;
+    border-color: #f1356d;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    background-color: #f1356d;
+}
+.comment {
+    margin: 20px 0px 20px 20px;
+}
+
